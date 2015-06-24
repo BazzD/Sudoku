@@ -1,0 +1,61 @@
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    }
+
+#tblSudoku {
+    font: bold 14px Arial,sans-serif;
+    border-collapse: collapse;
+    margin:30px;
+}
+
+#tblSudoku td.lftBorder {
+    border-left: 4px solid #000;
+}
+
+#tblSudoku td {
+    margin: 0px;
+    padding: 0px;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    border: 2px solid #000;
+    border-collapse: collapse;
+}
+
+#tblSudoku .cell {
+    width: 42px;
+    text-align: center;
+    font: bold 24px Arial,sans-serif;
+    color: #000;
+    border: 0px none;
+}
+#tblSudoku .rdonly {
+    background-color: #FFF7C0;
+}
+
+#tblSudoku td.correct{
+    background-color: #85bd55;
+    }
+
+#tblSudoku td.incorrect{
+    background-color: #de5d27;
+}
+
+#tblSudoku input {
+    background-color: inherit;
+}
+
+#tblSudoku .rdonly input {
+    cursor: default;
+    color: #0000F0;
+    background-color: inherit;
+}
+
+#tblSudoku tr.topBorder td {
+    border-top: 4px solid #000;
+}
+
+

@@ -45,7 +45,7 @@ function makePuzzle(){
 
     /*
      * De sudoku wordt opgebouwd per rij ($a). Dan wordt per vakje ($b) gekeken
-     * welke nummer nog niet gebruikt zijn in de rij, in de kolom ($columnCandidates) en in de huidige "zone" ($zoneCandidates, een vakje van 3X3).
+     * welke nummers nog niet gebruikt zijn in de rij, in de kolom ($columnCandidates) en in de huidige "zone" ($zoneCandidates, een vakje van 3X3).
      *
      *
      * Als een nummer past, wordt het nummer uit drie reeksen gehaald en is het volgende vakje aan de beurt (b++).
@@ -116,7 +116,7 @@ function makePuzzle(){
          * is er blijkbaar eerder in de puzzel een onmogelijkheid gecreerd, dus kunnen we beter helemaal opnieuw beginnen.
          * ($a = 1);
          *
-         * (uit de praktijk blijkt dat ongeveer 1 op de 20 de puzzel opnieuw gemaakt moet worden)
+         * (Ongeveer 1 op de 20 de puzzels wordt opniew vanaf het begin opgebouwd)
          */
 
         if (sizeof($thisRow) == 9) {

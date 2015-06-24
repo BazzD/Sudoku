@@ -7,5 +7,5 @@ Als een nummer past, wordt het nummer uit drie reeksen gehaald en is het volgend
 Wanneer de nieuwe rij 9 elementen heeft, is het blijkbaar gelukt de rij af te maken en gaan we naar de volgende rij.
 
 Als het niet gelukt is proberen we het met een nieuwe rij-reeks. Als het na 100 reeksen nog niet is gelukt,
-is er blijkbaar eerder in de puzzel een onmogelijkheid gecreerd, dus kunnen we beter helemaal opnieuw beginnen.
-(Ongeveer 1 op de 20 de puzzels wordt opniew vanaf het begin opgebouwd)
+is er blijkbaar eerder in de puzzel een onmogelijkheid gecreëerd, dus kunnen we beter helemaal opnieuw beginnen.
+

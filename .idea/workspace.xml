@@ -60,8 +60,8 @@
       <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19495413" vertical-offset="0" max-vertical-offset="872">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="71" />
+            <state vertical-scroll-proportion="0.17545871" vertical-offset="0" max-vertical-offset="872">
+              <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -142,8 +142,8 @@
         <option value="$PROJECT_DIR$/public/css/app.css" />
         <option value="$PROJECT_DIR$/public/js/sudoku.js" />
         <option value="$PROJECT_DIR$/resources/views/sudoku.blade.php" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -595,8 +595,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19495413" vertical-offset="0" max-vertical-offset="872">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="71" />
+        <state vertical-scroll-proportion="0.17545871" vertical-offset="0" max-vertical-offset="872">
+          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
           <folding />
         </state>
       </provider>

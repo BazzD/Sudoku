@@ -57,8 +57,7 @@ function makePuzzle(){
     $a = 1;
     $rowfail = 0;
 
-    while ($a<10) {
-
+    while ($a < 10) {
 
         $puzzle[$a] = $thisRow = array();
 
@@ -69,7 +68,6 @@ function makePuzzle(){
 
         $zoneX = round(($a+1)/3);
         $b = 1;
-
 
         while ($b < 10) {
             if ($b == 1) {
@@ -89,7 +87,7 @@ function makePuzzle(){
 
             if (!isset($tempZoneCandidates[$zoneX . $zoneY])) {
                 if (!isset($zoneCandidates[$zoneX . $zoneY])) {
-                        $zoneCandidates[$zoneX . $zoneY] = range(1, 9);
+                    $zoneCandidates[$zoneX . $zoneY] = range(1, 9);
                 }
                 $tempZoneCandidates[$zoneX . $zoneY] = $zoneCandidates[$zoneX . $zoneY];
             }
@@ -113,10 +111,10 @@ function makePuzzle(){
         /*
          * Wanneer $thisRow 9 elementen heeft, is het blijkbaar gelukt de rij af te maken en gaan we naar de volgende rij.
          * Als het niet gelukt is proberen we het met een nieuwe rij-reeks. Als het na 100 reeksen nog niet is gelukt,
-         * is er blijkbaar eerder in de puzzel een onmogelijkheid gecreerd, dus kunnen we beter helemaal opnieuw beginnen.
+         * is er blijkbaar eerder in de puzzel een onmogelijkheid gecreeerd, dus kunnen we beter helemaal opnieuw beginnen.
          * ($a = 1);
          *
-         * (Ongeveer 1 op de 20 de puzzels wordt opniew vanaf het begin opgebouwd)
+         * (Ongeveer 1 op de 20 de puzzels wordt opnieuw vanaf het begin opgebouwd)
          */
 
         if (sizeof($thisRow) == 9) {
@@ -127,12 +125,12 @@ function makePuzzle(){
         }
         else {
             $rowfail++;
-        }
-        if ($rowfail > 100) {
-            unset($columnCandidates,$zoneCandidates);
-            $a = 1;
-            $rowfail = 0;
+            if ($rowfail > 100) {
+                unset($columnCandidates, $zoneCandidates);
+                $a = 1;
+                $rowfail = 0;
 
+            }
         }
     }
     return $puzzle;
